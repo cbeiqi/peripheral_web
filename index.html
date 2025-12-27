@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>peripheral_bb7 — 简洁主页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">PB</div>
+        <div>
+          <div class="site-title">peripheral_bb7</div>
+          <div style="color:var(--muted);font-size:0.85rem">嵌入式外设演示与工具集</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="../README.md">仓库</a>
+        <a href="../build">构建</a>
+        <a href="../src">源码</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="hero-left">
+        <h1 class="h1">欢迎 — peripheral_bb7</h1>
+        <p class="lead">这是项目的简洁主页。你可以在这里快速找到源码、构建产物和示例；也可以把这个页面作为轻量的入口页放在设备或服务器上。</p>
+        <div class="cta">
+          <a class="btn" href="../bb7/main.cpp">查看主要代码</a>
+          <a class="btn secondary" href="../README.md">阅读文档</a>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <h3>快速开始</h3>
+            <p class="lead" style="color:var(--muted)">查看仓库根目录的 <code>README.md</code>，或运行仓库中的 <code>mybuild.sh</code> 构建脚本。</p>
+          </div>
+          <div class="card">
+            <h3>构建产物</h3>
+            <p class="lead" style="color:var(--muted)">构建输出位于 <code>/build</code> 目录，包含不同版本与测试用二进制。</p>
+          </div>
+          <div class="card">
+            <h3>示例与测试</h3>
+            <p class="lead" style="color:var(--muted)">查看 <code>/test</code> 目录中的示例程序以了解如何集成 UI 与图形。</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <strong>项目信息</strong>
+        <p class="lead" style="color:var(--muted);margin-top:8px">分支: v1.3<br>当前日期: 2025-12-27</p>
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,0.04);margin:10px 0">
+        <p style="font-size:0.9rem;color:var(--muted)">联系方式和说明可以放在这里，或直接在仓库中打开 issue。</p>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      构建脚本：<code>mybuild.sh</code> • 授权信息：请查看各子目录中的 LICENSE 文件
+    </footer>
+  </div>
+</body>
+</html>
