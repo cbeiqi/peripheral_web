@@ -79,7 +79,8 @@ h4 {
 }
 
 .text-danger {
-    color: var(--danger);
+    color: var(--danger) !important;
+    font-weight: 700;
 }
 
 .hero-actions {
@@ -293,6 +294,8 @@ section {
     display: flex;
     justify-content: flex-start;
     order: -1;
+    max-width: 420px;
+    width: 100%;
 }
 
 .connect-figure img {
