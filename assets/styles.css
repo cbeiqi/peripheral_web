@@ -193,6 +193,19 @@ h4 {
     margin: 0 auto;
 }
 
+.qq-link {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+}
+
+.qq-link img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
 .toc .nav-btn {
     padding: 8px 12px;
     border-radius: var(--radius-sm);
